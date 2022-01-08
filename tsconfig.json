@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "esnext",
+    "target": "es2016",
+    "lib": [
+      "ESNext",
+      "ESNext.AsyncIterable",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ],
+    "strict": true,
+    "esModuleInterop": true,
+    "incremental": false,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "types": [
+      "vite/client",
+      "vite-plugin-pages/client",
+      "vite-plugin-vue-layouts/client"
+    ],
+    "jsx": "preserve",
+    "allowJs": true,
+    "sourceMap": true,
+    "noEmit": true,
+    "declaration": true,
+    "noUnusedLocals": false,
+    "paths": {
+      "~/*": ["src/*"]
+    },
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "strictNullChecks": true,
+    "removeComments": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "allowSyntheticDefaultImports": true,
+  },
+  "exclude": ["dist", "node_modules"]
+}
